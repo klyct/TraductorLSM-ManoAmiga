@@ -5,8 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/custom_color_accent"
-    android:paddingTop="?attr/actionBarSize"
+    android:background="?attr/colorOnBackground"
     tools:context=".MainActivity">
 
     <androidx.viewpager2.widget.ViewPager2
@@ -36,11 +35,12 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="20dp"
         android:text="@string/saltar"
-        android:textColor="@color/custom_color_primary"
+        android:textColor="?attr/colorAccent"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+         />
 
     <View
         android:layout_width="55dp"
@@ -72,19 +72,19 @@
         app:layout_constraintBottom_toTopOf="@id/btnGetStarted"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:tint="@color/white" />
+        />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnGetStarted"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="@color/custom_color_primary"
+        android:backgroundTint="?attr/colorPrimary"
         android:paddingStart="40dp"
         android:paddingEnd="40dp"
         android:text="@string/inicia"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="?attr/colorOnBackground"
         android:textSize="16sp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -2,7 +2,13 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.TraductorLSMManoAmiga" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/dk_primary</item>
+        <item name="colorSecondary">@color/dk_secondary</item>
+        <item name="colorAccent">@color/dk_accent</item>
+        <item name="colorOnSecondary">@color/dk_secondary_light</item>
+        <item name="colorOnPrimary">@color/dk_primary_light</item>
+        <item name="colorOnBackground">@color/d_background</item>
+        <item name="colorOnError">@color/white</item>
     </style>
 
     <style name="Theme.TraductorLSMManoAmiga" parent="Base.Theme.TraductorLSMManoAmiga" />

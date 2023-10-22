@@ -4,10 +4,19 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue_light">#EFF4F8</color>
 
-    <color name="custom_color_primary">#959BBD </color>
-    <color name="custom_color_secondary">#465375</color>
-    <color name="custom_color_primary_light">#C0D3E4</color>
-    <color name="custom_color_secondary_light">#C0BECC</color>
-    <color name="custom_color_background">#FFFFFF</color>
-    <color name="custom_color_accent">#F3DBE9</color>
+
+    <color name="d_primary">#764C73 </color>
+    <color name="d_secondary">#956C92</color>
+    <color name="d_primary_light">#B35F8B</color>
+    <color name="d_secondary_light">#D194AD</color>
+    <color name="d_accent">#DCBAC4</color>
+    <color name="d_background">#ECCEEC</color>
+
+    <color name="dk_primary">#956C92 </color>
+    <color name="dk_secondary">#D194AD</color>
+    <color name="dk_primary_light">#764C73</color>
+    <color name="dk_secondary_light">#956C92</color>
+    <color name="dk_accent">#4D6891</color>
+    <color name="dk_background">#0C070C</color>
+
 </resources>

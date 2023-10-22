@@ -3,5 +3,12 @@
     <style name="Base.Theme.TraductorLSMManoAmiga" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/d_primary</item>
+        <item name="colorSecondary">@color/d_secondary</item>
+        <item name="colorAccent">@color/d_accent</item>
+        <item name="colorOnSecondary">@color/d_secondary_light</item>
+        <item name="colorOnPrimary">@color/d_primary_light</item>
+        <item name="colorOnBackground">@color/dk_background</item>
+        <item name="colorOnError">@color/black</item>
     </style>
 </resources>
